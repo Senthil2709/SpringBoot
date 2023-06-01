@@ -1,0 +1,44 @@
+Feature Test  - 30.0 / 30.0(Success)
+	* check whether the controller annotation is present above the Controller - 5.0 / 5.0
+	* check whether the ModelAttribute annotation is present above the Method - 5.0 / 5.0
+	* check whether the Service is autowired inside the Controller - 5.0 / 5.0
+	* check whether Service annotation is present above the Service - 5.0 / 5.0
+	* check whether the ModelAttribute annotation has the appropriate value above the Method - 5.0 / 5.0
+
+Functional testing - 20.0 / 20.0(Success)
+	* check whether the course fees is calculated correctly for Java course with duration Normal - 2.0 / 2.0
+	* check whether the course fees is calculated correctly for Java course with duration Weekend - 1.5 / 1.5
+	* check whether the course fees is calculated correctly for Java course with duration FastTrack - 1.5 / 1.5
+	* check whether the course fees is calculated correctly for JEE course with duration Normal - 2.0 / 2.0
+	* check whether the course fees is calculated correctly for JEE course with duration Weekend - 1.5 / 1.5
+	* check whether the course fees is calculated correctly for JEE course with duration FastTrack - 1.5 / 1.5
+	* check whether the course fees is calculated correctly for Frameworks course with duration Normal - 2.0 / 2.0
+	* check whether the course fees is calculated correctly for Frameworks course with duration Weekend - 1.5 / 1.5
+	* check whether the course fees is calculated correctly for Frameworks course with duration FastTrack - 1.5 / 1.5
+	* check whether the course fees is calculated correctly for DataScience course with duration Normal - 2.0 / 2.0
+	* check whether the course fees is calculated correctly for DataScience course with duration Weekend - 1.5 / 1.5
+	* check whether the course fees is calculated correctly for DataScience course with duration FastTrack - 1.5 / 1.5
+
+Spring Testing in the Controller - 20.0 / 20.0(Success)
+	* check whether the request is mapped for showPage and redirected to showpage - 5.0 / 5.0
+	* check whether layering is followed that is whether course fees is calculated by invoking the service method inside the Controller - 10.0 / 10.0
+	* check whether the request is mapped for calculateCourseFees and redirected to result page - 5.0 / 5.0
+
+UI Testing - 25.0 / 25.0(Success)
+	* check whether the showpage jsp is rendered for Java Course - 1.0 / 1.0
+	* check whether the showpage jsp is rendered for JEE Course - 1.0 / 1.0
+	* check whether the showpage jsp is rendered for Frameworks Course - 1.0 / 1.0
+	* check whether the showpage jsp is rendered for DataScience Course - 1.0 / 1.0
+	* check whether the showpage jsp is rendered with proper constraints for studentName - 1.0 / 1.0
+	* check whether UI from showpage  to result page is redirected after calculating the course fees for Java for Normal - 2.0 / 2.0
+	* check whether UI from showpage  to result page is redirected after calculating the course fees for JEE for FastTrack - 2.0 / 2.0
+	* check whether UI from showpage  to result page is redirected after calculating the course fees for Frameworks for Weekend - 2.0 / 2.0
+	* check whether UI from showpage  to result page is redirected after calculating the course fees for DataScience for Weekend - 2.0 / 2.0
+	* check whether error message for blank from the property file is correctly displayed for English - 2.0 / 2.0
+	* check whether error message for blank from the property file is correctly displayed for German - 2.0 / 2.0
+	* check whether error message for blank from the property file is correctly displayed for French - 2.0 / 2.0
+	* check whether error message for Registration number in negative from the property file is correctly displayed for German - 2.0 / 2.0
+	* check whether error message for registration number exceeding six digits from the property file is correctly displayed for German - 2.0 / 2.0
+
+Comments and best practices/standards - 0.0 / 5.0(Failed)
+

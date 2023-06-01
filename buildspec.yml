@@ -1,0 +1,24 @@
+version: 0.2
+
+phases:
+    install:
+        runtime-versions:
+            java: corretto8
+    pre_build:
+        commands:
+            - echo "Pre_build"
+    build:
+        commands:
+            - echo "Build"
+            - mvn package
+    post_build:
+        commands:
+            - echo "Post_build"
+artifacts:
+    files:
+        - target/EPortal-0.0.1-SNAPSHOT.war
+        - appspec.yml
+        - start.sh
+        - stop.sh
+        - validate.sh
+    

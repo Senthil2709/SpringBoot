@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testscript>
+	
+	<functiontested>
+		<name>Feature Test </name>
+		<feedback>
+			<success>You have a good understanding in configuring required attributes/methods and annotations</success>
+			<partial>Your understanding in configuring required attributes/methods and annotations</partial>
+			<failure>You need to focus more on configuring required attributes/methods and annotations</failure>
+		</feedback>
+		<expertises>
+			<expertise>
+			    
+				<name>Feature Test</name>
+				<testcases>
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testAnnotationAboveController</name>
+						<description>Requirement is to check whether the controller annotation is present above the Controller</description>
+						<shortdescription>check whether the controller annotation is present above the Controller</shortdescription>
+		
+						<maxmark>5</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testAnnotationAboveMethod</name>
+						<description>Requirement is to check whether the ModelAttribute annotation is present above the Method</description>
+						<shortdescription>check whether the ModelAttribute annotation is present above the Method</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+					
+										
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testDependencyInjection</name>
+						<description>Requirement is to check whether the Service is autowired inside the Controller</description>
+						<shortdescription>check whether the Service is autowired inside the Controller</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+									
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testAnnotationAboveService</name>
+						<description>Requirement is to check whether Service annotation is present above the Service</description>
+						<shortdescription>check whether Service annotation is present above the Service</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+					
+					
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">testAnnotationValueAboveMethod</name>
+						<description>Requirement is to check whether the ModelAttribute annotation has the appropriate value above the Method</description>
+						<shortdescription>check whether the ModelAttribute annotation has the appropriate value above the Method</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test12AnnotationAboveMethod</name>
+						<description>Requirement is to check whether the ModelAttribute annotation has the appropriate value above the Method</description>
+						<shortdescription>check whether the ModelAttribute annotation has the appropriate value above the Method</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+					
+					
+				
+				</testcases>
+				<grade>
+					<complete>Success</complete>
+					<partial>Partial Success</partial>
+					<incomplete>Failed</incomplete>
+				</grade>
+			</expertise>
+								
+		</expertises>
+	</functiontested>
+		
+
+	<functiontested>
+		<name>Functional testing</name>
+		<feedback>
+			<success>You have a good understanding in implementing the functionalities in Service Layer</success>
+			<partial>Your understanding in  implementing the functionalities in Service Layer is partially met</partial>
+			<failure>You need to focus more implementing the functionalities in Service Layer</failure>
+		</feedback>
+		<expertises>
+			<expertise>
+			    
+				<name>Functional testing</name>
+				<testcases>
+					<testcase>		
+					    <visible>yes</visible>
+						<name visible="yes">testCalculateCourseFeesForJavaWhenDurationIsNormal</name>
+						<description>Requirement is to calculate the Course Fees for Java with duration Normal</description>
+						<shortdescription>check whether the course fees is calculated correctly for Java course with duration Normal</shortdescription>	
+						<maxmark>2</maxmark>
+					</testcase>
+					<testcase>		
+					    <visible>no</visible>
+						<name visible="no">testCalculateCourseFeesForJavaWhenDurationIsWeekend</name>
+						<description>Requirement is to calculate the Course Fees for Java with duration Weekend</description>
+						<shortdescription>check whether the course fees is calculated correctly for Java course with duration Weekend</shortdescription>	
+						<maxmark>1.5</maxmark>
+					</testcase>
+					<testcase>		
+					    <visible>no</visible>
+						<name visible="no">testCalculateCourseFeesForJavaWhenDurationIsFastTrack</name>
+						<description>Requirement is to calculate the Course Fees for Java with duration FastTrack</description>
+						<shortdescription>check whether the course fees is calculated correctly for Java course with duration FastTrack</shortdescription>						
+						<maxmark>1.5</maxmark>
+					</testcase>
+					
+					<testcase>		
+					    <visible>yes</visible>
+						<name visible="yes">testCalculateCourseFeesForJEEWhenDurationIsNormal</name>
+						<description>Requirement is to calculate the Course Fees for JEE with duration Normal</description>
+						<shortdescription>check whether the course fees is calculated correctly for JEE course with duration Normal</shortdescription>	
+						<maxmark>2</maxmark>
+					</testcase>
+					<testcase>		
+					    <visible>no</visible>
+						<name visible="no">testCalculateCourseFeesForJEEWhenDurationIsWeekend</name>
+						<description>Requirement is to calculate the Course Fees for JEE with duration Weekend</description>
+						<shortdescription>check whether the course fees is calculated correctly for JEE course with duration Weekend</shortdescription>	
+						<maxmark>1.5</maxmark>
+					</testcase>
+					<testcase>		
+					    <visible>no</visible>
+						<name visible="no">testCalculateCourseFeesForJEEWhenDurationIsFastTrack</name>
+						<description>Requirement is to calculate the Course Fees for JEE with duration FastTrack</description>
+						<shortdescription>check whether the course fees is calculated correctly for JEE course with duration FastTrack</shortdescription>						
+						<maxmark>1.5</maxmark>
+					</testcase>
+					
+					<testcase>		
+					    <visible>yes</visible>
+						<name visible="yes">testCalculateCourseFeesForFrameworksWhenDurationIsNormal</name>
+						<description>Requirement is to calculate the Course Fees for Frameworks with duration Normal</description>
+						<shortdescription>check whether the course fees is calculated correctly for Frameworks course with duration Normal</shortdescription>	
+						<maxmark>2</maxmark>
+					</testcase>
+					<testcase>		
+					    <visible>no</visible>
+						<name visible="no">testCalculateCourseFeesForFrameworksWhenDurationIsWeekend</name>
+						<description>Requirement is to calculate the Course Fees for Frameworks with duration Weekend</description>
+						<shortdescription>check whether the course fees is calculated correctly for Frameworks course with duration Weekend</shortdescription>	
+						<maxmark>1.5</maxmark>
+					</testcase>
+					<testcase>		
+					    <visible>no</visible>
+						<name visible="no">testCalculateCourseFeesForFrameworksWhenDurationIsFastTrack</name>
+						<description>Requirement is to calculate the Course Fees for Frameworks with duration FastTrack</description>
+						<shortdescription>check whether the course fees is calculated correctly for Frameworks course with duration FastTrack</shortdescription>						
+						<maxmark>1.5</maxmark>
+					</testcase>
+					
+					<testcase>		
+					    <visible>yes</visible>
+						<name visible="yes">testCalculateCourseFeesForDataScienceWhenDurationIsNormal</name>
+						<description>Requirement is to calculate the Course Fees for DataScience with duration Normal</description>
+						<shortdescription>check whether the course fees is calculated correctly for DataScience course with duration Normal</shortdescription>	
+						<maxmark>2</maxmark>
+					</testcase>
+					<testcase>		
+					    <visible>no</visible>
+						<name visible="no">testCalculateCourseFeesForDataScienceWhenDurationIsWeekend</name>
+						<description>Requirement is to calculate the Course Fees for DataScience with duration Weekend</description>
+						<shortdescription>check whether the course fees is calculated correctly for DataScience course with duration Weekend</shortdescription>	
+						<maxmark>1.5</maxmark>
+					</testcase>
+					<testcase>		
+					    <visible>no</visible>
+						<name visible="no">testCalculateCourseFeesForDataScienceWhenDurationIsFastTrack</name>
+						<description>Requirement is to calculate the Course Fees for DataScience with duration FastTrack</description>
+						<shortdescription>check whether the course fees is calculated correctly for DataScience course with duration FastTrack</shortdescription>						
+						<maxmark>1.5</maxmark>
+					</testcase>
+					
+										
+			</testcases>
+				<grade>
+					<complete>Success</complete>
+					<partial>Partial Success</partial>
+					<incomplete>Failed</incomplete>
+				</grade>
+			</expertise>
+								
+		</expertises>
+	</functiontested>
+	
+	
+	
+	
+	<functiontested>
+		<name>Spring Testing in the Controller</name>
+		<feedback>
+			<success>You have a good understanding in mapping the request in the Controller</success>
+			<partial>Your understanding in mapping the request in the Controller is partially met</partial>
+			<failure>You need to focus more on mapping the request in the Controller</failure>
+		</feedback>
+		<expertises>
+			<expertise>
+			    
+				<name>Mapping the Request from the UI inside the Controller</name>
+				<testcases>
+					<testcase>		
+					    <visible>yes</visible>
+						<name visible="yes">testShowPage</name>
+						<description>Requirement is to map the request and redirect to showpage</description>
+						<shortdescription>check whether the request is mapped for showPage and redirected to showpage</shortdescription>
+						<maxmark>5</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">testToInvokingcalculateCourseFeesMethodInEPortalServiceClass</name>
+						<description>Requirement is to check whether layering is followed that is whether course fees is calculated by invoking the service method inside the Controller</description>
+						<shortdescription>check whether layering is followed that is whether course fees is calculated by invoking the service method inside the Controller</shortdescription>
+						<maxmark>10</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testResultPage</name>
+						<description>Requirement is to map the request and redirect to result page</description>
+						<shortdescription>check whether the request is mapped for calculateCourseFees and redirected to result page</shortdescription>
+						<maxmark>5</maxmark>
+					</testcase>
+				
+								
+				</testcases>
+				<grade>
+					<complete>Success</complete>
+					<partial>Partial Success</partial>
+					<incomplete>Failed</incomplete>
+				</grade>
+			</expertise>
+								
+		</expertises>
+	</functiontested>
+	
+	
+	
+	
+	<functiontested>
+		<name>UI Testing</name>
+		<feedback>
+			<success>You have a good understanding in designing the web page as per the design constraints specified</success>
+			<partial>Your understanding in designing the web page as per the requirement is partially met</partial>
+			<failure>You need to focus more on designing the web page as per the requirement</failure>
+		</feedback>
+		<expertises>
+			<expertise>
+			    
+				<name>View Designing and Internationalization</name>
+				<testcases>
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test11showpageJSPForCourseJava</name>
+						<description>Requirement is to check whether the showpage jsp is rendered for Java Course</description>
+						<shortdescription>check whether the showpage jsp is rendered for Java Course</shortdescription>
+						<maxmark>1</maxmark>
+					</testcase>
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">test11showpageJSPForCourseJEE</name>
+						<description>Requirement is to check whether the showpage jsp is rendered for JEE Course</description>
+						<shortdescription>check whether the showpage jsp is rendered for JEE Course</shortdescription>
+						<maxmark>1</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">test11showpageJSPForCourseFrameworks</name>
+						<description>Requirement is to check whether the showpage jsp is rendered for Frameworks Course</description>
+						<shortdescription>check whether the showpage jsp is rendered for Frameworks Course</shortdescription>
+						<maxmark>1</maxmark>
+					</testcase>
+					
+									
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test11showpageJSPForCourseDataScience</name>
+						<description>Requirement is to check whether the showpage jsp is rendered for DataScience Course</description>
+						<shortdescription>check whether the showpage jsp is rendered for DataScience Course</shortdescription>
+						<maxmark>1</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test14showpageJSPForStudentName</name>
+						<description>Requirement is to check whether the showpage jsp is rendered with proper constraints for studentName</description>
+						<shortdescription>check whether the showpage jsp is rendered with proper constraints for studentName</shortdescription>
+						<maxmark>1</maxmark>
+					</testcase>
+					
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test15SuccessFlowForJavaCourseNormalDuration</name>
+						<description>Requirement is to check whether UI from showpage  to result page is redirected after calculating the course fees for Java for Normal</description>
+						<shortdescription>check whether UI from showpage  to result page is redirected after calculating the course fees for Java for Normal</shortdescription>
+						<maxmark>2</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">test15SuccessFlowForJEECourseFastTrackDuration</name>
+						<description>Requirement is to check whether UI from showpage  to result page is redirected after calculating the course fees for JEE for FastTrack</description>
+						<shortdescription>check whether UI from showpage  to result page is redirected after calculating the course fees for JEE for FastTrack</shortdescription>
+						<maxmark>2</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test15SuccessFlowForFrameworksCourseWeekendDuration</name>
+						<description>Requirement is to check whether UI from showpage  to result page is redirected after calculating the course fees for Frameworks for Weekend</description>
+						<shortdescription>check whether UI from showpage  to result page is redirected after calculating the course fees for Frameworks for Weekend</shortdescription>
+						<maxmark>2</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">test15SuccessFlowForDataScienceCourseWeekendDuration</name>
+						<description>Requirement is to check whether UI from showpage  to result page is redirected after calculating the course fees for DataScience for Weekend</description>
+						<shortdescription>check whether UI from showpage  to result page is redirected after calculating the course fees for DataScience for Weekend</shortdescription>
+						<maxmark>2</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test1showPageUIForDefaultEnglish</name>
+						<description>Requirement is to check whether error message for blank from the property file is correctly displayed for English</description>
+						<shortdescription>check whether error message for blank from the property file is correctly displayed for English</shortdescription>
+						<maxmark>2</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">test1showPageUIForGerman</name>
+						<description>Requirement is to check whether error message for blank from the property file is correctly displayed for German</description>
+						<shortdescription>check whether error message for blank from the property file is correctly displayed for German</shortdescription>
+						<maxmark>2</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test3showPageUIForFrench</name>
+						<description>Requirement is to check whether error message for blank from the property file is correctly displayed for French</description>
+						<shortdescription>check whether error message for blank from the property file is correctly displayed for French</shortdescription>
+						<maxmark>2</maxmark>
+					</testcase>
+					
+				
+						<testcase>
+					    <visible>no</visible>
+						<name visible="no">test4ErrorMessageForStudentNameEmptyInGerman</name>
+						<description>Requirement is to check whether error message for blank from the property file is correctly displayed for German</description>
+						<shortdescription>check whether error message for blank from the property file is correctly displayed for German</shortdescription>	
+						<maxmark>2</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test6ErrorMessageForRegistrationNumberNegativeCheckInGerman</name>
+						<description>Requirement is to check whether error message for Registration number in negative from the property file is correctly displayed for German</description>
+						<shortdescription>check whether error message for Registration number in negative from the property file is correctly displayed for German</shortdescription>
+						<maxmark>2</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">test6ErrorMessageForRegistrationNumberExceedCheckInGerman</name>
+						<description>Requirement is to check whether error message for registration number exceeding six digits from the property file is correctly displayed for German</description>
+						<shortdescription>check whether error message for registration number exceeding six digits from the property file is correctly displayed for German</shortdescription>
+						<maxmark>2</maxmark>
+					</testcase>
+					
+					
+					
+				</testcases>
+				<grade>
+					<complete>Success</complete>
+					<partial>Partial Success</partial>
+					<incomplete>Failed</incomplete>
+				</grade>
+			</expertise>
+								
+		</expertises>
+	</functiontested>
+	
+	<pmdtest>
+    <name>Comments and best practices/standards</name>
+    <feedback>
+    <success>You are good in following programming best practices</success>
+    <partial>Following coding best practices is partially met</partial>
+    <failure>You have not followed best practices</failure>
+    </feedback>
+    </pmdtest>
+	
+
+</testscript>

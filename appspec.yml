@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+files:
+    - source: target/EPortal-0.0.1-SNAPSHOT.war
+      destination: /home/ec2-user/server
+hooks:
+  ApplicationStop:
+    - location: stop.sh
+      timeout: 20
+      runas: root
+  ApplicationStart:
+    - location: start.sh
+      timeout: 90
+      runas: root
+  ValidateService:
+    - location: validate.sh
+      timeout: 30
+      runas: root
