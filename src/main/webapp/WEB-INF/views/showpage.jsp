@@ -9,7 +9,7 @@
 <html>
 <body style="background-color:yellow">
 <a href="/showPage?language=en">English</a>|<a href="/showPage?language=de">German</a>|<a href="/showPage?language=fr">French</a></align>
-<h1><center> Welcome to Brand new E-Learning Platform for AWS PipeLine</center></h1>
+<h1><center> Welcome to Brand new E-Learning Platform for AWS PipeLine Using GitHub</center></h1>
 <form:form method="post" action="billDesk" modelAttribute="ePortal">
 
 <table style="margin: 0px auto; margin-left: auto; margin-right:auto">
